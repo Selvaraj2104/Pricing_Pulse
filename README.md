@@ -23,8 +23,3 @@ The layout includes attractive hero sections, feature highlights, subscription p
 | HTML5 | Page structure |
 | CSS3 | Styling and responsive design |
 | JavaScript | Navbar toggle functionality |
-
----
-
-## 🖥️ Folder Structure
-

@@ -356,9 +356,8 @@ footer .copyright{
     line-height: 20px;
 }
 
-/* ✅ Responsive Design Starts Here */
+/* Responsive Design */
 
-/* -------- Tablet (max-width: 1024px) -------- */
 @media (max-width: 1024px) {
         nav {
         position: relative;

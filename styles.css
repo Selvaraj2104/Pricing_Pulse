@@ -1,0 +1,565 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: rgb(222, 248, 222);
+    padding: 60px 40px 10px 40px;
+}
+nav .logo{
+    color: green;
+    font-size: 25px;
+}
+nav .menu-icon {
+  display: none;
+  font-size: 35px;
+  color: green;
+  cursor: pointer;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    list-style: none;
+}
+nav ul li{
+    font-size: 22px;
+    color: green;
+    font-weight: bold;
+}
+nav ul li a{
+    text-decoration: none;
+    color: green;
+}
+nav ul li button{
+    background: transparent;
+    padding: 8px 20px;
+    border: 3px solid green;
+    font-size: 22px;
+    color: green;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero{
+    min-height: 50vh;
+    background-color: rgb(222, 248, 222);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+.hero h1{
+    width: 40%;
+    font-size: 75px;
+}
+.hero p{
+    width: 45%;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.subscribe{
+    min-height: 100vh;
+    background-color: rgb(222, 248, 222);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 50px 5px;
+}
+.subscribe .box{
+    border: 2px solid green;
+}
+.subscribe .box1{
+    padding: 0 100px;
+    min-height: 800px;
+    border: none;
+}
+.subscribe .box1 h2{
+    color: green;
+    font-size: 28px;
+}
+.subscribe .box1 ul{
+    padding: 20px 0 20px 10px;
+}
+.subscribe .box1 ul li{
+    font-size: 22px;
+    line-height: 32px;
+    color: rgba(35, 33, 33, 0.786);
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+.subscribe .box1 p{
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 32px;
+    color: rgba(35, 33, 33, 0.786);
+}
+.subscribe .box1 p span{
+    color: black;
+    text-decoration: underline;
+}
+.subscribe .box2{
+    min-height: 1000px;
+    border-radius: 10px 10px 0 0;
+    background-color: white;
+}
+.subscribe .box2 .head{
+    min-height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subscribe .box2 .head p{
+    padding: 8px;
+    background-color: green;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+.subscribe .box2 .head h1{
+    margin-top: 50px;
+    font-size: 70px;
+    color: green;
+    text-align: center;
+    padding: 0 100px;
+}
+.subscribe .box2 .head span{
+    margin-top: 10px;
+    color: gray;
+    font-size: 30px;
+}
+.subscribe .box2 .head button{
+    margin-top: 30px;
+    font-size: 30px;
+    padding: 15px 35px;
+    background-color: rgb(53, 218, 53);
+    opacity: 0.8;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.subscribe .box2 .head h5{
+    font-size: 18px;
+    margin-top: 70px;
+    color: rgb(41, 40, 40);
+    letter-spacing: 1px;
+}
+.subscribe .box2 ul{
+    height: 40%;
+    padding: 0 50px 60px 40px;
+}
+.subscribe .box2 ul li{
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    color: rgba(35, 33, 33, 0.786);
+    margin-top: 25px;
+}
+.subscribe .box2 ul li{
+    list-style: none;
+}
+.subscribe .box2 ul li::before{
+    content: "✔";
+    color: green;
+    font-weight: bold;
+    margin-top: 6px;
+    padding-right: 6px;
+}
+
+.subscribe .box3{
+    min-height: 900px;
+    border: 2px solid rgb(184, 180, 180);
+    border-left: none;
+    background-color: white;
+}
+.subscribe .box3 .head{
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subscribe .box3 .head p{
+    text-align: center;
+    font-size: 20px;
+    padding: 40px;
+    background-color: lightgray;
+    border-bottom: 2px solid rgb(184, 180, 180);
+    letter-spacing: 1px;
+}
+.subscribe .box3 .head h2{
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: 100;
+    color: green;
+    text-align: center;
+    padding: 0 100px;
+}
+.subscribe .box3 .head span{
+    margin-top: 10px;
+    color: gray;
+    font-size: 30px;
+}
+.subscribe .box3 .head button{
+    margin-top: 30px;
+    font-size: 30px;
+    padding: 15px 35px;
+    background-color: rgb(53, 218, 53);
+    opacity: 0.8;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.subscribe .box3 .head h5{
+    font-size: 18px;
+    margin-top: 70px;
+    color: rgb(41, 40, 40);
+    letter-spacing: 1px;
+}
+.subscribe .box3 ul{
+    height: 40%;
+    padding: 0 50px 60px 40px;
+}
+.subscribe .box3 ul li{
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    color: rgba(35, 33, 33, 0.786);
+    margin-top: 25px;
+}
+.subscribe .box3 ul li{
+    list-style: none;
+}
+.subscribe .box3 ul li::before{
+    content: "✔";
+    color: green;
+    font-weight: bold;
+    margin-top: 6px;
+    padding-right: 6px;
+}
+
+.about{
+    min-height: 60vh;
+    background-color: rgb(222, 248, 222);
+    border-bottom: 2px solid rgb(184, 180, 180);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 30px 0;
+}
+.about span{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(166, 166, 166);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Impact', 'Oswald', sans-serif;
+}
+.about p{
+    font-size: 35px;
+    width: 70%;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 50px;
+}
+
+.faq{
+    padding: 120px 30px;
+}
+.faq h1{
+    font-size: 50px;
+}
+.faq .questions{
+    display: grid;
+    grid-template-areas: "q1 q2"
+                         "q3 q4"
+                         "q5 q6";
+    gap: 80px 100px;
+    margin-top: 50px;
+}
+
+.faq .questions h2{
+    font-size: 28px;
+}
+.faq .questions p{
+    margin-top: 10px;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+
+footer{
+    background-color: rgb(29, 28, 28);
+    padding: 20px;
+}
+
+footer .contact{
+    color: white;
+    padding: 120px 0;
+    display: flex;
+    justify-content: space-between;
+}
+footer .contact .logo{
+    width: 40%;
+}
+footer .contact .logo h1{
+    color: rgb(97, 231, 97);
+    font-size: 70px;
+}
+footer .contact .logo button{
+    margin-top: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 18px 38px;
+    background-color: rgb(97, 231, 97);
+    border: none;
+    cursor: pointer;
+}
+footer .contact .content{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer .contact .content p:first-child{
+    color: white;
+    font-weight: 600;
+    margin-top: 0;
+}
+footer .contact .content p{
+    font-size: 25px;
+    margin-top: 25px;
+    color: rgb(26, 182, 26);
+}
+footer .contact .content p a{
+    text-decoration: none;
+    color: rgb(26, 182, 26);
+}
+footer .copyright{
+    color: rgb(193, 190, 190);
+    width: 45%;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* ✅ Responsive Design Starts Here */
+
+/* -------- Tablet (max-width: 1024px) -------- */
+@media (max-width: 1024px) {
+        nav {
+        position: relative;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav .menu-icon {
+        display: block;
+    }
+    nav ul {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: rgb(222, 248, 222);
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        width: 100%;
+        padding: 30px 0;
+        border-top: 2px solid green;
+        display: none; 
+        transition: all 0.3s ease-in-out;
+    }
+
+     nav ul.active {
+        display: flex; 
+    }
+
+    nav ul li {
+        font-size: 22px;
+    }
+
+    nav ul li button {
+        padding: 10px 30px;
+        font-size: 20px;
+    }
+
+    .hero h1 {
+        width: 80%;
+        font-size: 55px;
+    }
+
+    .hero p {
+        width: 80%;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .subscribe {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    .subscribe .box1 {
+        padding: 0 40px;
+    }
+
+    .subscribe .box2, .subscribe .box3 {
+        min-height: auto;
+    }
+
+    .faq .questions {
+        grid-template-areas: 
+            "q1"
+            "q2"
+            "q3"
+            "q4"
+            "q5"
+            "q6";
+    }
+
+    footer .contact {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 40px;
+    }
+
+    footer .contact .logo,
+    footer .contact .content {
+        width: 100%;
+    }
+
+    footer .contact .content {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    footer .copyright {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* -------- Mobile (max-width: 768px) -------- */
+@media (max-width: 768px) {
+     nav {
+        padding: 20px;
+    }
+
+    .logo h2 {
+        font-size: 26px;
+    }
+
+    .menu-icon {
+        font-size: 32px;
+    }
+
+    nav ul {
+        gap: 20px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    nav ul li button {
+        font-size: 18px;
+        padding: 8px 25px;
+    }
+
+    .hero {
+        padding: 40px 10px;
+    }
+
+    .hero h1 {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .hero p {
+        width: 90%;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .subscribe {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .subscribe .box1, 
+    .subscribe .box2,
+    .subscribe .box3 {
+        min-height: auto;
+        padding: 20px;
+    }
+
+    .subscribe .box2 .head h1,
+    .subscribe .box3 .head h2 {
+        font-size: 45px;
+        padding: 0;
+    }
+
+    .about {
+        padding: 40px 10px;
+    }
+
+    .about p {
+        width: 90%;
+        font-size: 22px;
+        line-height: 35px;
+    }
+
+    .faq {
+        padding: 60px 10px;
+    }
+
+    .faq h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .faq .questions {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    footer .contact {
+        padding: 60px 20px;
+    }
+
+    footer .contact .logo h1 {
+        font-size: 50px;
+    }
+
+    footer .contact .logo button {
+        font-size: 18px;
+        padding: 12px 28px;
+    }
+
+    footer .contact .content p {
+        font-size: 18px;
+    }
+
+    footer .copyright {
+        width: 100%;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
